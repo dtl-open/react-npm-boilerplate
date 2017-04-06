@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dilunika/react-npm-boilerplate.git"
+    "url": "https://github.com/dtl-open/react-npm-boilerplate.git"
   },
   "author": "Kasun Dilunika",
   "license": "MIT",
-  "homepage": "https://github.com/dilunika/react-npm-boilerplate",
+  "homepage": "https://github.com/dtl-open/react-npm-boilerplate",
   "keywords": [
     "react-component",
     "react",
