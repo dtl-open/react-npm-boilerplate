@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@types/react": "^15.0.21",
-    "random-number-display": "0.0.12",
+    "random-number-display": "0.0.14",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.8",
     "react-dom": "^15.4.2"

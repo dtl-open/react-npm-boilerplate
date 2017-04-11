@@ -3,16 +3,19 @@
  */
 import * as React from 'react';
 
-export = ReactDtl;
-export as namespace ReactDtl;
+export = RandomNumberDisplay;
+export as namespace RandomNumberDisplay;
 
-declare namespace ReactDtl {
+declare namespace RandomNumberDisplay {
 
     interface DisplayProps {
         text: string;
     }
 
-    class Display extends React.Component<DisplayProps, any> {}
+    type RandomNumberDisplay = React.ClassicComponent<{},{}>;
+    var RandomNumberDisplay: React.ClassicComponentClass<void>;
 
-    class RandomNumberDisplay extends React.Component<void, void> {}
+    type Display = React.ClassicComponent<DisplayProps,{}>;
+    var Display: React.ClassicComponentClass<DisplayProps>;
+
 }
