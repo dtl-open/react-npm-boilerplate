@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RandomNumberDisplay from './components'
+import {RandomNumberDisplay} from 'random-number-display/dist/index';
 import logo from './logo.svg';
 import './App.css';
 

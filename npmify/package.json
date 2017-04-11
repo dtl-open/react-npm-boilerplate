@@ -1,6 +1,6 @@
 {
   "name": "random-number-display",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "Random number display. Sample app for creating React Npm packages with ES2015",
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
   },
   "scripts": {
     "prepublish": "rimraf ./dist/* && npm run build && npm run copycss",
-    "copy-components": "rimraf ./components && cp -r ../src/components .",
-    "build": "babel components --out-dir ./dist",
+    "copy-components": "rimraf ./components && cp -r ../src/components . && mv ./components/index.d.ts .",
+    "build": "npm run copy-components && babel components --out-dir ./dist",
     "lint": "eslint ./src",
     "lintfix": "eslint ./src --fix",
     "testonly": "mocha $npm_package_options_mocha",
